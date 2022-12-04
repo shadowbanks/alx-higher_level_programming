@@ -1,1 +1,1 @@
-High level programming
+if/else, loops, functions
