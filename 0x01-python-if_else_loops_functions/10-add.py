@@ -2,5 +2,5 @@
 def add(a, b):
     try:
         return (a + b)
-    except:
-        pass
+    except Exception as e:
+        return (e)
