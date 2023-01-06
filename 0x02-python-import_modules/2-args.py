@@ -13,7 +13,7 @@ if __name__ == "__main__":
     elif (num > 1):
         print("s:")
     else:
-        print()
+        print(":")
 
     while (count <= num):
         print("{}: {}".format(count, argv[count]))
