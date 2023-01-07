@@ -16,11 +16,10 @@ if __name__ == "__main__":
     oper = argv[2]
     b = int(argv[3])
 
-    operators = {"+":add(a, b), "-":sub(a, b), "*":mul(a, b), "/":div(a, b)}
+    opers = {"+": add(a, b), "-": sub(a, b), "*": mul(a, b), "/": div(a, b)}
 
-
-    if not(oper in operators):
+    if not (oper in opers):
         print("Unknown operator. Available operators: +, -, * and /")
         exit(1)
 
-    print("{} {} {} = {}".format(a, oper, b, operators[oper]))
+    print("{} {} {} = {}".format(a, oper, b, opers[oper]))
