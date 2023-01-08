@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 import sys
 
+
 def safe_print_integer_err(value):
     status = True
     try:
@@ -8,6 +9,6 @@ def safe_print_integer_err(value):
 
     except (ValueError, TypeError) as ex:
         status = False
-        print(ex, file=sys.stderr)
+        print("Exception: {}".format(ex), file=sys.stderr)
 
     return (status)
