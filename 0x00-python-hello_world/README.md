@@ -22,3 +22,6 @@
 - 6-concat - Concatenate string to print
 
 
+- 7-edges - slice a string in different ways
+
+
