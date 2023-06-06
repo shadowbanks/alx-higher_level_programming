@@ -16,3 +16,6 @@
 - 4-print_float - print a string with a float nummber of 2 digits
 
 
+- 5-print_string - A python script to print a string with float number
+
+
