@@ -31,3 +31,9 @@
 - 9-easter_egg - A python script that prints the zen of python
 
 
+- 10-check_cycle.c - Check if a linked list has a cycle
+
+
+- 100-write - Write to stderr using system call
+
+
