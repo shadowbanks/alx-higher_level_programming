@@ -37,3 +37,6 @@
 - 100-write - Write to stderr using system call
 
 
+- 101-compile - A bash script that compiles a python script file and score the output in a "script_name.pyc"
+
+
