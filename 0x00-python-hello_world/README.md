@@ -28,3 +28,6 @@
 - 8-concat_edges - Create a new string from an existing string
 
 
+- 9-easter_egg - A python script that prints the zen of python
+
+
