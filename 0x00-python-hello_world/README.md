@@ -7,3 +7,6 @@
 - 1-run_inline - A shell script that runs a python code
 
 
+- 2-print.py - A python script that prints a string
+
+
