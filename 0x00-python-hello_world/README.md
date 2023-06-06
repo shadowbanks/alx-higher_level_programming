@@ -19,3 +19,6 @@
 - 5-print_string - A python script to print a string with float number
 
 
+- 6-concat - Concatenate string to print
+
+
