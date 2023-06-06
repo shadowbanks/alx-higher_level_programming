@@ -25,3 +25,6 @@
 - 7-edges - slice a string in different ways
 
 
+- 8-concat_edges - Create a new string from an existing string
+
+
