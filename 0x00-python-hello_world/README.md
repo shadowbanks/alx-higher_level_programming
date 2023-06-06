@@ -13,3 +13,6 @@
 - 3-print_number.py - A python script that prints using f-string
 
 
+- 4-print_float - print a string with a float nummber of 2 digits
+
+
