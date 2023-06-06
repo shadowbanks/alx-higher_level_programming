@@ -10,3 +10,6 @@
 - 2-print.py - A python script that prints a string
 
 
+- 3-print_number.py - A python script that prints using f-string
+
+
