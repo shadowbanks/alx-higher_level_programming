@@ -10,3 +10,6 @@ If/else, loopa, functions
 - 1-last_digit - Compare the last digit of a number
 
 
+- 2-print_alphabet - print the ascii alphabet in lowercase
+
+
