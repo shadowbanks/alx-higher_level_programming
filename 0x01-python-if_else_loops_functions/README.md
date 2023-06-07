@@ -25,3 +25,6 @@ If/else, loopa, functions
 - 6-print_comb3 - Print all possible different combination of two digits
 
 
+- 7-islower - Check if a character is lowercase
+
+
