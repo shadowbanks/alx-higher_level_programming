@@ -19,3 +19,6 @@ If/else, loopa, functions
 - 4-print_hexa - Print numbers from 0-98 in decimal and hexadecimal
 
 
+- 5-print_comb2 - Print 00..99
+
+
