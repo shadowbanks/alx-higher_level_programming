@@ -28,3 +28,6 @@ If/else, loopa, functions
 - 7-islower - Check if a character is lowercase
 
 
+- 8-uppercase - Print string in uppercase
+
+
