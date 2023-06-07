@@ -13,3 +13,6 @@ If/else, loopa, functions
 - 2-print_alphabet - print the ascii alphabet in lowercase
 
 
+- 3-print_alphabt - Print alphabets except "e" and "q"
+
+
