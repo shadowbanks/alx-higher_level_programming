@@ -16,3 +16,6 @@ If/else, loopa, functions
 - 3-print_alphabt - Print alphabets except "e" and "q"
 
 
+- 4-print_hexa - Print numbers from 0-98 in decimal and hexadecimal
+
+
