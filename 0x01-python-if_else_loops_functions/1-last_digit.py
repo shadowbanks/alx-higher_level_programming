@@ -2,7 +2,7 @@
 import random
 number = random.randint(-10000, 10000)
 reminder = abs(number) % 10
-print(f"Last digit of {number} is {reminder}", end = " ")
+print(f"Last digit of {number} is {reminder}", end=" ")
 if ((reminder) == 0):
     print("and is 0")
 elif ((reminder) < 6):
