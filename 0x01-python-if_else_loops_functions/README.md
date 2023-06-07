@@ -34,3 +34,6 @@ If/else, loopa, functions
 - 9-print_last_digit - Print and return the last digit of a number
 
 
+- 10-add - Return the sum of two numbers
+
+
