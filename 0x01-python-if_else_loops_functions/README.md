@@ -31,3 +31,6 @@ If/else, loopa, functions
 - 8-uppercase - Print string in uppercase
 
 
+- 9-print_last_digit - Print and return the last digit of a number
+
+
