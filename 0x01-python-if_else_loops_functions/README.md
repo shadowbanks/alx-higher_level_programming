@@ -49,3 +49,6 @@ If/else, loopa, functions
 - 100-print_tebahpla - Change every other letter to uppercase and print in reverse
 
 
+- 101-remove_char_at - Create a copy of a string, while removing a character at specified position
+
+
