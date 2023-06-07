@@ -46,3 +46,6 @@ If/else, loopa, functions
 - 13-insert_number.c - Add a number to a sorted linked list
 
 
+- 100-print_tebahpla - Change every other letter to uppercase and print in reverse
+
+
