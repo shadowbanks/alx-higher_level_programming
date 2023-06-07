@@ -22,3 +22,6 @@ If/else, loopa, functions
 - 5-print_comb2 - Print 00..99
 
 
+- 6-print_comb3 - Print all possible different combination of two digits
+
+
