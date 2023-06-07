@@ -40,3 +40,6 @@ If/else, loopa, functions
 - 11-pow - Calculate and return the result of a number to the power of a number (i.e a^b)
 
 
+- 12-fizzbuzz - FIZZBUZZ
+
+
