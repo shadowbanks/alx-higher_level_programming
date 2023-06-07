@@ -37,3 +37,6 @@ If/else, loopa, functions
 - 10-add - Return the sum of two numbers
 
 
+- 11-pow - Calculate and return the result of a number to the power of a number (i.e a^b)
+
+
