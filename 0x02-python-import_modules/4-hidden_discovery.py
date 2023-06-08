@@ -3,7 +3,8 @@ import hidden_4
 
 if __name__ == "__main__":
     hidden = dir(hidden_4)
-    for i in hidden.sort():
+    hidden.sort()
+    for i in hidden:
         if i[0] == "_":
             pass
         else:
