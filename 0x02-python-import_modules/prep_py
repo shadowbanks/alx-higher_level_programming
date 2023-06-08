@@ -1,4 +1,5 @@
 #!/bin/bash
 echo "#!/usr/bin/python3" > $@
+echo -e "import sys\n\nif __name__ == \"__main__\":" >> $@
 chmod u+x $@
 vim $@
