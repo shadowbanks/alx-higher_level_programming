@@ -31,3 +31,6 @@ Python - Data Structures: Lists, Tuples
 	 * "8-multiple_returns" - Return length of a string and it's first letter as a tuple respectively
 
 
+	 * "9-max_integer" - Find the max in a list
+
+
