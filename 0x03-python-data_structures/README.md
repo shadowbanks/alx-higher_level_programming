@@ -22,3 +22,6 @@ Python - Data Structures: Lists, Tuples
 	 * "5-no_c" - Strip the letter c/C from given string and return the new string
 
 
+	 * "6-print_matrix_integer" - Print a matrix
+
+
