@@ -19,3 +19,6 @@ Python - Data Structures: Lists, Tuples
 	 * "4-new_in_list" - Replace element of a copy of an integer list at a specific location
 
 
+	 * "5-no_c" - Strip the letter c/C from given string and return the new string
+
+
