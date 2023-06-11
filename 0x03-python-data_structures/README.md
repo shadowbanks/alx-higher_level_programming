@@ -28,3 +28,6 @@ Python - Data Structures: Lists, Tuples
 	 * "7-add_tuple" - Perform arithmetic addition on two tuples
 
 
+	 * "8-multiple_returns" - Return length of a string and it's first letter as a tuple respectively
+
+
