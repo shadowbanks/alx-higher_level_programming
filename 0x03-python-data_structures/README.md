@@ -25,3 +25,6 @@ Python - Data Structures: Lists, Tuples
 	 * "6-print_matrix_integer" - Print a matrix
 
 
+	 * "7-add_tuple" - Perform arithmetic addition on two tuples
+
+
