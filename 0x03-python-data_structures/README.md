@@ -13,3 +13,9 @@ Python - Data Structures: Lists, Tuples
 	 * "2-replace_in_list" - Replace the element at a specific index or leave the list unchange if invalid index is passed
 
 
+	 * "3-print_reversed_list_integer" - print a list with integers in reverse
+
+
+	 * "4-new_in_list" - Replace element of a copy of an integer list at a specific location
+
+
