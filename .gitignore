@@ -1,0 +1,9 @@
+prep_bash
+prep_py
+add_commit
+update_README
+add_commit_push
+main.c
+*.swp
+a.out
+__pycache__
