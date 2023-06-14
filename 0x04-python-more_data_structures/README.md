@@ -28,3 +28,6 @@ Python - More Data Structures: Set, Dictionary
 	 * simple_delete - Delete a key in a dictionary if key exists
 
 
+	 * multiply_by_2 - Create a new dictionary with all the values multiplied by 2
+
+
