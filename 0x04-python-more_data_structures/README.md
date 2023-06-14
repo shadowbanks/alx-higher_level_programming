@@ -22,3 +22,6 @@ Python - More Data Structures: Set, Dictionary
 	 * print_sorted_dictionary - Print Dictionary by ordered keys
 
 
+	 * update_dictionary - Update key/value pair in a dictionary
+
+
