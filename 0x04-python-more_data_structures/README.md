@@ -16,3 +16,6 @@ Python - More Data Structures: Set, Dictionary
 	 * only_diff_elements - Compare two sets to find the elements present in only one set
 
 
+	 * number_keys - Count the number of keys in a dictionary
+
+
