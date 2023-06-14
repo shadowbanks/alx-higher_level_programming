@@ -31,3 +31,6 @@ Python - More Data Structures: Set, Dictionary
 	 * multiply_by_2 - Create a new dictionary with all the values multiplied by 2
 
 
+	 * best_score - Get the key of the biggest integer value
+
+
