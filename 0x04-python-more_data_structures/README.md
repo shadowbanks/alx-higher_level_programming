@@ -7,3 +7,6 @@ Python - More Data Structures: Set, Dictionary
 	 * search_replace - Replace all occurrences of an element by another in a new list
 
 
+	 * uniq_add - Add all unique integers in a list (only once for each integer)
+
+
