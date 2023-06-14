@@ -25,3 +25,6 @@ Python - More Data Structures: Set, Dictionary
 	 * update_dictionary - Update key/value pair in a dictionary
 
 
+	 * simple_delete - Delete a key in a dictionary if key exists
+
+
