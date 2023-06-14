@@ -34,3 +34,6 @@ Python - More Data Structures: Set, Dictionary
 	 * best_score - Get the key of the biggest integer value
 
 
+	 * multiply_list_map - Multiply a list of integers by an integer using map
+
+
