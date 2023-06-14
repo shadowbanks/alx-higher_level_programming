@@ -10,3 +10,6 @@ Python - More Data Structures: Set, Dictionary
 	 * uniq_add - Add all unique integers in a list (only once for each integer)
 
 
+	 * common_elements - Find the common elements in two sets
+
+
