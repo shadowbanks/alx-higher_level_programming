@@ -39,3 +39,6 @@ Python - More Data Structures: Set, Dictionary
 	 	# = ((1 * 2) + (2 * 1) + (3 * 10) + (4 * 2)) / (2 + 1 + 10 + 2)
 
 
+	 * square_matrix_map - Compute the square value of all integers of matrix using map
+
+
