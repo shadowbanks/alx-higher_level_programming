@@ -42,3 +42,6 @@ Python - More Data Structures: Set, Dictionary
 	 * square_matrix_map - Compute the square value of all integers of matrix using map
 
 
+	 * 102-complex_delete.py - Delete keys with specific value in a dictionary
+
+
