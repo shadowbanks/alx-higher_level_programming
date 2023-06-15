@@ -35,5 +35,7 @@ Python - More Data Structures: Set, Dictionary
 
 
 	 * multiply_list_map - Multiply a list of integers by an integer using map
+	 * weight_average - Calculate the weighted average of all integers tuple (<score>, <weight>)
+	 	# = ((1 * 2) + (2 * 1) + (3 * 10) + (4 * 2)) / (2 + 1 + 10 + 2)
 
 
