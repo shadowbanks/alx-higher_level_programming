@@ -19,3 +19,6 @@ Python - Exceptions
 	 * 5-raise_exception - Raise an exception
 
 
+	 * 6-raise_exception_msg - Raise a NameError with a message
+
+
