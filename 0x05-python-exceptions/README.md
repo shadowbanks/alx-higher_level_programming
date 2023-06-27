@@ -25,3 +25,6 @@ Python - Exceptions
 	 * 100-safe_print_integer_err - Print an integer safely and error if any
 
 
+	 * 101-safe_function - Run a function safely
+
+
