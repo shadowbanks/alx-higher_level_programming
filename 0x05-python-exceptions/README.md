@@ -7,3 +7,6 @@ Python - Exceptions
 	 * 1-safe_print_integer - Print an integer safely, return True if printed else return False
 
 
+	 * 2-safe_print_list_integers - Print the x elements of a list and only integers
+
+
