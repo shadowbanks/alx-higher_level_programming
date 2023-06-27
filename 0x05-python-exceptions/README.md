@@ -10,3 +10,6 @@ Python - Exceptions
 	 * 2-safe_print_list_integers - Print the x elements of a list and only integers
 
 
+	 * 3-safe_print_division - Divide 2 integers safely
+
+
