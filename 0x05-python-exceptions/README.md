@@ -16,3 +16,6 @@ Python - Exceptions
 	 * 4-list_division - Divide element by element 2 lists safely
 
 
+	 * 5-raise_exception - Raise an exception
+
+
