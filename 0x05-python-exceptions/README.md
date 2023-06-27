@@ -13,3 +13,6 @@ Python - Exceptions
 	 * 3-safe_print_division - Divide 2 integers safely
 
 
+	 * 4-list_division - Divide element by element 2 lists safely
+
+
