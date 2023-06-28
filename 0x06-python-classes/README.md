@@ -10,3 +10,6 @@ Python - Classes and Objects
 	 * 2-square - Add condition to instantiation of the class
 
 
+	 * 3-square - Add a method that calculates the square
+
+
