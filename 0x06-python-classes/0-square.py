@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 
 class Square:
-    """Create Square"""
+    """Create a new Square template
+
+    Other functionality will be added with time
+    """
     pass
