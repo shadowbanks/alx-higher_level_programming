@@ -7,3 +7,6 @@ Python - Classes and Objects
 	 * 1-square - Create a private instance attribute
 
 
+	 * 2-square - Add condition to instantiation of the class
+
+
