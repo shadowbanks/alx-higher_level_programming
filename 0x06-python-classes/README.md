@@ -13,3 +13,6 @@ Python - Classes and Objects
 	 * 3-square - Add a method that calculates the square
 
 
+	 * 4-square - User property to retrive and set data
+
+
