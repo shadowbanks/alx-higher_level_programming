@@ -19,3 +19,6 @@ Python - Classes and Objects
 	 * 5-square - Draw a square using "#"
 
 
+	 * 6-square - Adjust the sqaure with specific coordinate
+
+
