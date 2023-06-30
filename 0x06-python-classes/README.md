@@ -22,3 +22,9 @@ Python - Classes and Objects
 	 * 6-square - Adjust the sqaure with specific coordinate
 
 
+	 * 102-square - Add comparison operators to Square class
+
+
+	 * 101-square - Add the __str__ to the class
+
+
