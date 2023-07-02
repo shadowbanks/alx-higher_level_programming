@@ -1,0 +1,56 @@
+============================================
+A doctest to test out 0-add_integer function
+============================================
+
+
+	"""
+	>>> add = __import__('0-add_integer').add_integer
+	>>> add(1, 2)
+	3
+
+	>>> add(1, 2)
+	3
+
+	>>> add(1, )
+	99
+
+	>>> add(-10, )
+	88
+
+	>>> add("10", )
+	Traceback (most recent call last):
+	...
+	TypeError: a must be an integer
+
+	>>> add("", )
+	Traceback (most recent call last):
+	...
+	TypeError: a must be an integer
+
+	>>> add(12.4, )
+	110
+
+	>>> add([], )
+	Traceback (most recent call last):
+	...
+	TypeError: a must be an integer
+
+	>>> add(a in range (12), )
+	Traceback (most recent call last):
+	...
+	NameError: name 'a' is not defined
+
+	>>> add((a for a in range (12)), )
+	Traceback (most recent call last):
+	...
+	TypeError: a must be an integer
+	>>> add(None)
+	Traceback (most recent call last):
+	...
+	TypeError: a must be an integer
+	>>> add(5)
+	103
+	>>> add(-3, -10)
+	-13
+
+	"""
