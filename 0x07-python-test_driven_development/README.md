@@ -15,3 +15,6 @@ Python - Test-driven development
 Print a square using "#" based on the size passed
 
 
+Indent a Text, add 2 new lines after each of there characters: (".", "?", ":")
+
+
