@@ -4,9 +4,11 @@ Python - Test-driven development
 ------------------------------------------
 
 
-	 * 0-add_integer - The function confirms if input is an integer/ a float, then add the two numbers (one number can be by default it will add to 98)
+	 * add_integer - The function confirms if input is an integer/ a float, then add the two numbers (one number can be by default it will add to 98)
 
 
-Print user's full name (Last name is optional)
+	* matrix_divided - Divide a matrix of number by a specific number
+
+	* say_my_name - Print user's full name (Last name is optional)
 
 
