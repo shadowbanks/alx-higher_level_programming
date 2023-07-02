@@ -12,3 +12,6 @@ Python - Test-driven development
 	* say_my_name - Print user's full name (Last name is optional)
 
 
+Print a square using "#" based on the size passed
+
+

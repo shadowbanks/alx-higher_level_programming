@@ -2,134 +2,134 @@
 This is a doctest to test "2-matrix_divided" function
 =====================================================
 
-"""
->>> matrx = __import__('2-matrix_divided').matrix_divided
->>> matrix = [
-...	[1, 2, 3],
-...	[4, 5, 6]
-... ]
->>> print(matrx(matrix, 3))
-[[0.33, 0.67, 1.0], [1.33, 1.67, 2.0]]
+	"""
+	>>> matrx = __import__('2-matrix_divided').matrix_divided
+	>>> matrix = [
+	...	[1, 2, 3],
+	...	[4, 5, 6]
+	... ]
+	>>> print(matrx(matrix, 3))
+	[[0.33, 0.67, 1.0], [1.33, 1.67, 2.0]]
 
->>> matrix = [
-...	[1, 2, 3],
-...	[4, 5, 6],
-...	[7, 8, 9]
-... ]
->>> print(matrx(matrix, 3))
-[[0.33, 0.67, 1.0], [1.33, 1.67, 2.0], [2.33, 2.67, 3.0]]
+	>>> matrix = [
+	...	[1, 2, 3],
+	...	[4, 5, 6],
+	...	[7, 8, 9]
+	... ]
+	>>> print(matrx(matrix, 3))
+	[[0.33, 0.67, 1.0], [1.33, 1.67, 2.0], [2.33, 2.67, 3.0]]
 
->>> matrix = [
-...	[0, 0, 0, 0],
-...	[0, 0, 0, 0],
-...	[0, 0, 0, 0]
-... ]
->>> print(matrx(matrix, 3))
-[[0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0]]
+	>>> matrix = [
+	...	[0, 0, 0, 0],
+	...	[0, 0, 0, 0],
+	...	[0, 0, 0, 0]
+	... ]
+	>>> print(matrx(matrix, 3))
+	[[0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0]]
 
->>> matrix = [
-...	[],
-...	[],
-...	[]
-... ]
->>> print(matrx(matrix, 3))
-Traceback (most recent call last):
-...
-TypeError: matrix must be a matrix (list of lists) of integers/floats
+	>>> matrix = [
+	...	[],
+	...	[],
+	...	[]
+	... ]
+	>>> print(matrx(matrix, 3))
+	Traceback (most recent call last):
+	...
+	TypeError: matrix must be a matrix (list of lists) of integers/floats
 
 
->>> matrix = [
-...	[1, 2, 3],
-...	[4, 5, 6],
-...	[7, 8, 9]
-... ]
->>> print(matrx(matrix, 0))
-Traceback (most recent call last):
-...
-ZeroDivisionError: division by zero
+	>>> matrix = [
+	...	[1, 2, 3],
+	...	[4, 5, 6],
+	...	[7, 8, 9]
+	... ]
+	>>> print(matrx(matrix, 0))
+	Traceback (most recent call last):
+	...
+	ZeroDivisionError: division by zero
 
->>> matrix = [
-...	[1, 2, 3],
-...	[4, 5, 6],
-...	[7, 8]
-... ]
->>> print(matrx(matrix, 3))
-Traceback (most recent call last):
-...
-TypeError: Each row of the matrix must have the same size
+	>>> matrix = [
+	...	[1, 2, 3],
+	...	[4, 5, 6],
+	...	[7, 8]
+	... ]
+	>>> print(matrx(matrix, 3))
+	Traceback (most recent call last):
+	...
+	TypeError: Each row of the matrix must have the same size
 
->>> matrix = [
-...	[1, 2, 3],
-...	[4, 5, 6],
-...	[7, 8, "9"]
-... ]
->>> print(matrx(matrix, 0))
-Traceback (most recent call last):
-...
-TypeError: matrix must be a matrix (list of lists) of integers/floats
+	>>> matrix = [
+	...	[1, 2, 3],
+	...	[4, 5, 6],
+	...	[7, 8, "9"]
+	... ]
+	>>> print(matrx(matrix, 0))
+	Traceback (most recent call last):
+	...
+	TypeError: matrix must be a matrix (list of lists) of integers/floats
 
->>> matrix = []
->>> print(matrx(matrix, 2))
-Traceback (most recent call last):
-...
-TypeError: matrix must be a matrix (list of lists) of integers/floats
+	>>> matrix = []
+	>>> print(matrx(matrix, 2))
+	Traceback (most recent call last):
+	...
+	TypeError: matrix must be a matrix (list of lists) of integers/floats
 
->>> matrix = [[7]]
->>> print(matrx(matrix, 2))
-[[3.5]]
+	>>> matrix = [[7]]
+	>>> print(matrx(matrix, 2))
+	[[3.5]]
 
->>> matrix = [
-...	[1, 2, 3],
-...	[[1,2, 3, 4], 5, 6],
-...	[7, 8, 9]
-... ]
->>> print(matrx(matrix, 3))
-Traceback (most recent call last):
-...
-TypeError: matrix must be a matrix (list of lists) of integers/floats
+	>>> matrix = [
+	...	[1, 2, 3],
+	...	[[1,2, 3, 4], 5, 6],
+	...	[7, 8, 9]
+	... ]
+	>>> print(matrx(matrix, 3))
+	Traceback (most recent call last):
+	...
+	TypeError: matrix must be a matrix (list of lists) of integers/floats
 
->>> matrix = [None]
->>> print(matrx(matrix, 2))
-Traceback (most recent call last):
-...
-TypeError: matrix must be a matrix (list of lists) of integers/floats
+	>>> matrix = [None]
+	>>> print(matrx(matrix, 2))
+	Traceback (most recent call last):
+	...
+	TypeError: matrix must be a matrix (list of lists) of integers/floats
 
->>> matrix = [
-...	[1, 2, 3],
-...	[4, 5, 6],
-...	[7, 8, 9]
-... ]
->>> print(matrx(matrix, "3"))
-Traceback (most recent call last):
-...
-TypeError: div must be a number
+	>>> matrix = [
+	...	[1, 2, 3],
+	...	[4, 5, 6],
+	...	[7, 8, 9]
+	... ]
+	>>> print(matrx(matrix, "3"))
+	Traceback (most recent call last):
+	...
+	TypeError: div must be a number
 
->>> matrix = [
-...	[1, 2, 3],
-...	[4, 5, 6],
-...	[7, 8, 9]
-... ]
->>> print(matrx(matrix, None))
-Traceback (most recent call last):
-...
-TypeError: div must be a number
+	>>> matrix = [
+	...	[1, 2, 3],
+	...	[4, 5, 6],
+	...	[7, 8, 9]
+	... ]
+	>>> print(matrx(matrix, None))
+	Traceback (most recent call last):
+	...
+	TypeError: div must be a number
 
->>> matrix = [
-...	[1, 2, 3],
-...	[4, 5, 6],
-...	[7, 8, 9]
-... ]
->>> print(matrx(matrix, [1, 2, 3]))
-Traceback (most recent call last):
-...
-TypeError: div must be a number
+	>>> matrix = [
+	...	[1, 2, 3],
+	...	[4, 5, 6],
+	...	[7, 8, 9]
+	... ]
+	>>> print(matrx(matrix, [1, 2, 3]))
+	Traceback (most recent call last):
+	...
+	TypeError: div must be a number
 
->>> matrix = [
-...	[1, 2, 3],
-...	[4, 5, 6],
-...	[7, 8, 9]
-... ]
->>> print(matrx(matrix, (x for x in range(3))))
-Traceback (most recent call last):
-...
-TypeError: div must be a number
+	>>> matrix = [
+	...	[1, 2, 3],
+	...	[4, 5, 6],
+	...	[7, 8, 9]
+	... ]
+	>>> print(matrx(matrix, (x for x in range(3))))
+	Traceback (most recent call last):
+	...
+	TypeError: div must be a number

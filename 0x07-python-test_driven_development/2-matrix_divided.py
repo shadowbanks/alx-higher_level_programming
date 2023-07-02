@@ -17,9 +17,9 @@ def matrix_divided(matrix, div):
     Return:
         A new matrix of the results
     """
-    if (not len(matrix) > 0 or not all(isinstance(x, list) \
-            and len(x) > 0 for x in matrix)) \
-            or (not isinstance(matrix, list)):
+    if (not len(matrix) > 0 or
+            not all(isinstance(x, list) and len(x) > 0 for x in matrix)) or \
+            (not isinstance(matrix, list)):
         raise TypeError("matrix must be a matrix "
                         "(list of lists) of integers/floats")
 
@@ -37,3 +37,7 @@ def matrix_divided(matrix, div):
         raise ZeroDivisionError("division by zero")
 
     return [[round(y/div, 2) for y in x] for x in matrix]
+
+
+if __name__ == "__main__":
+    doctest.testfile("./tests/2-matrix_divided.txt")
