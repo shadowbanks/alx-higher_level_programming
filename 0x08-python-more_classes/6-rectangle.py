@@ -7,6 +7,7 @@ A class definition of a rectangle
 class Rectangle:
     """This is a class that defines a rectangle"""
     number_of_instances = 0
+
     def __init__(self, width=0, height=0):
         """Instantiate the class"""
         self.width = width

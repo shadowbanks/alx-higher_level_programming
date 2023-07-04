@@ -8,6 +8,7 @@ class Rectangle:
     """This is a class that defines a rectangle"""
     number_of_instances = 0
     print_symbol = "#"
+
     def __init__(self, width=0, height=0):
         """Instantiate the class"""
         self.width = width
@@ -50,7 +51,9 @@ class Rectangle:
 
     def __str__(self):
         """Output string of the rectangle drawing"""
-        return "\n".join([type(self).print_symbol * self.__width for _ in range(self.__height)])
+        return "\n".join(
+                [type(self).print_symbol * self.__width
+                    for _ in range(self.__height)])
 
     def __repr__(self):
         """Return string representation of the rectangle"""
