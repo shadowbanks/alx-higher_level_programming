@@ -13,3 +13,6 @@ Define a rectangle with it's width and height
 Calculate area and perimeter of a rectangle
 
 
+Add feature to print the rectangle (draw using "#")
+
+
