@@ -1,5 +1,13 @@
 #!/usr/bin/python3
+"""
+This module ```100-matrix_mul``` multiplies two matrixes
+"""
+
+
 def matrix_mul(m_a, m_b):
+    """
+    Multiply two matrixes while handliing necessary errors
+    """
     if not isinstance(m_a, list):
         raise TypeError("m_a must be a list")
     if not isinstance(m_b, list):
