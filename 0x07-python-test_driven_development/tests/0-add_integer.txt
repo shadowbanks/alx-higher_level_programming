@@ -52,19 +52,19 @@ A doctest to test out 0-add_integer function
 	103
 	>>> add(-3, -10)
 	-13
-	>>> add_(float(1, 'NaN'))
+	>>> add(1, float('NaN'))
 	Traceback (most recent call last):
 	...
 	ValueError: cannot convert float NaN to integer
-	>>> add_(float('NaN'))
+	>>> add(float('NaN'))
 	Traceback (most recent call last):
 	...
 	ValueError: cannot convert float NaN to integer
-	>>> add_(1, float('inf'))
+	>>> add(1, float('inf'))
 	Traceback (most recent call last):
 	...
 	OverflowError: cannot convert float infinity to integer
-	>>> add_(float('inf'))
+	>>> add(float('inf'))
 	Traceback (most recent call last):
 	...
 	OverflowError: cannot convert float infinity to integer
