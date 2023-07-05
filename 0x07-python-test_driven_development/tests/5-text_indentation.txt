@@ -64,4 +64,18 @@ Traceback (most recent call last):
 ...
 TypeError: text must be a string
 
+>>> text("Hi")
+Hi
+>>> text("Hi.")
+Hi.
+<BLANKLINE>
+>>> text("Hello. How are you today")
+Hello.
+<BLANKLINE>
+How are you today
+>>> text("Hello.How are you today")
+Hello.
+<BLANKLINE>
+How are you today
+
 """
