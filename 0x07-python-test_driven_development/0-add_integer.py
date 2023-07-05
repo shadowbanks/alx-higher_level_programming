@@ -4,7 +4,6 @@
 A funtion that adds 2 integer numbers together
 and return the sum of the two numbers
 """
-import doctest
 
 
 def add_integer(a, b=98):
@@ -22,7 +21,3 @@ def add_integer(a, b=98):
     if not isinstance(b, (int, float)):
         raise TypeError("b must be an integer")
     return int(a) + int(b)
-
-
-if __name__ == "__main__":
-    doctest.testfile("./tests/0-add_integer.txt")
