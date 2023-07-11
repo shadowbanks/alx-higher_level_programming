@@ -58,3 +58,8 @@ Using ```Base_geometry```
 	Traceback (most recent call last):
     	...
 	TypeError: wills must be an integer
+
+	>>> bg.integer_validator("bool", True)
+	Traceback (most recent call last):
+    	...
+	TypeError: bool must be an integer
