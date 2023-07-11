@@ -1,0 +1,63 @@
+=====================================
+Test case for ```1-my_list``` module
+=====================================
+
+using ```MyList```
+-------------------
+
+	"""
+	>>> MyList = __import__("1-my_list").MyList
+	>>> printSort = MyList.print_sorted
+	>>> module_docs = __import__("1-my_list").__doc__
+	>>> class_docs = MyList.__doc__
+	>>> func_docs = printSort.__doc__
+
+	>>> len(module_docs) > 0
+	True
+
+	>>> len(class_docs) > 0
+	True
+
+	>>> len(func_docs) > 0
+	True
+
+	>>> my_list = MyList()
+	>>> print(my_list)
+	[]
+
+	>>> my_list.append(1)
+	>>> my_list.append(4)
+	>>> my_list.append(2)
+	>>> my_list.append(3)
+	>>> my_list.append(5)
+	>>> print(my_list)
+	[1, 4, 2, 3, 5]
+
+	>>> my_list.print_sorted()
+	[1, 2, 3, 4, 5]
+
+	>>> print(my_list)
+	[1, 4, 2, 3, 5]
+
+	>>> my_list = MyList([1])
+	>>> print(my_list)
+	[1]
+
+	>>> my_list = MyList()
+	>>> print(my_list)
+	[]
+
+	>>> my_list.print_sorted()
+	[]
+
+	>>> my_list = MyList([-1, -2, -3, -5])
+	>>> my_list.print_sorted()
+	[-5, -3, -2, -1]
+	
+	>>> my_list = MyList([1, 2, 3, 5])
+	>>> my_list.print_sorted()
+	[1, 2, 3, 5]
+
+	>>> my_list = MyList([1, 1, 1, 1])
+	>>> my_list.print_sorted()
+	[1, 1, 1, 1]
