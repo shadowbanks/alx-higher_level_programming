@@ -4,7 +4,6 @@
 A function that divides every element
 of a matrix by a number
 """
-import doctest
 
 
 def matrix_divided(matrix, div):
@@ -37,7 +36,3 @@ def matrix_divided(matrix, div):
         raise ZeroDivisionError("division by zero")
 
     return [[round(y/div, 2) for y in x] for x in matrix]
-
-
-if __name__ == "__main__":
-    doctest.testfile("./tests/2-matrix_divided.txt")

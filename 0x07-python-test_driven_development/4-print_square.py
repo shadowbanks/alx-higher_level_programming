@@ -2,7 +2,6 @@
 """
 This function prints a sqaure
 """
-import doctest
 
 
 def print_square(size):
@@ -20,7 +19,3 @@ def print_square(size):
     size = int(size)
     for i in range(size):
         print("#" * size)
-
-
-if __name__ == "__main__":
-    doctest.testfile("./tests/4-print_square.txt")

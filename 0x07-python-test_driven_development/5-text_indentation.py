@@ -2,7 +2,6 @@
 """
 This Function indents a Text passed to it
 """
-import doctest
 
 
 def text_indentation(text):
@@ -25,10 +24,7 @@ def text_indentation(text):
             line += "\n\n"
             output += line
             line = ""
-        line += text[i]
+        else:
+            line += text[i]
     output += line.strip()
     print(output, end="")
-
-
-if __name__ == "__main__":
-    doctest.testfile("./tests/5-text_indentation.txt")
