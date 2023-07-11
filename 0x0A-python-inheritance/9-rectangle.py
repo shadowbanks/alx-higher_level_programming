@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module doc for ```5-base_geometry```
+Module doc for ```9-rectangle```
 """
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
