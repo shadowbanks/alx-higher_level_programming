@@ -13,3 +13,6 @@ Inherit from list class, and adds a new method ``print_sorted`` to sort the elem
 Check if an object is an exact instance if specified class
 
 
+Check if an object inherited from a class or parent class
+
+
