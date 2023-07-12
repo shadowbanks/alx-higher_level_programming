@@ -21,9 +21,10 @@ def add_item():
         save_to_json_file(save, "add_item.json")
     except FileNotFoundError:
         save_to_json_file(my_list, "add_item.json")
-#    print(my_list)
+
 
 def main():
     add_item()
+
 
 main()
