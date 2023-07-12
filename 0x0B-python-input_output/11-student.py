@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module ```9-student``` documentation
+Module ```11-student``` documentation
 """
 
 
@@ -17,3 +17,8 @@ class Student:
         if isinstance(attrs, list):
             return {x: getattr(self, x) for x in attrs if hasattr(self, x)}
         return self.__dict__
+
+    def reload_from_json(self, json):
+        """ Reload a dictionary"""
+        for x in json.keys():
+            setattr(self, x, json[x])
