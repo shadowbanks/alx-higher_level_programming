@@ -8,7 +8,6 @@ def add_attribute(a_class, name, value):
     """ Set a new attribute if the attribute
     does not already exist
     """
-    if not hasattr(a_class, name):
-        setattr(a_class, name, value)
-    else:
+    if not hasattr(a_class, "__dict__"):
         raise TypeError("can't add new attribute")
+    setattr(a_class, name, value)
