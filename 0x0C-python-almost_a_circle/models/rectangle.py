@@ -54,3 +54,12 @@ class Rectangle(Base):
         if y != 0:
             super().value_check("y", y, 2)
         self.__y = y
+
+    def area(self):
+        """Calculate and return area"""
+        return self.__width * self.height
+
+    def display(self):
+        """ Display the rectangle"""
+        for i in range(self.__height):
+            print(f"{self.__width * '#'}")
