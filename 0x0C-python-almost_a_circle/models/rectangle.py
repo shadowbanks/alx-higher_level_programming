@@ -66,6 +66,16 @@ class Rectangle(Base):
         for i in range(self.__height):
             print(f"{' ' * self.__x}{self.__width * '#'}")
 
+
+    def update(self, *args, **kwargs):
+        if len(args) > 0:
+            assign = ["id", "width", "height", "x", "y"]
+            for i, value in enumerate(args):
+                setattr(self, assign[i], value)
+        elif kwargs is not None:
+            for i, value in kwargs.items():
+                setattr(self, i, value)
+
     def __str__(self):
         return (
                 f"[Rectangle] ({self.id}) {self.__x}/{self.__y} "
