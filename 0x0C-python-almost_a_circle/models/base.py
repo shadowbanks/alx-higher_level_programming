@@ -61,3 +61,16 @@ class Base:
                 cls_dummy = cls(1)
             cls_dummy.update(**dictionary)
         return cls_dummy
+
+    @classmethod
+    def load_from_file(cls):
+        name = cls.__name__ + ".json"
+        output = []
+        try:
+            with open(name, encoding="utf-8") as fd:
+                list_of_obj = Base.from_json_string(fd.read())
+        except FileNotFoundError:
+            return []
+        for i in list_of_obj:
+            output.append(cls.create(**i))
+        return output
