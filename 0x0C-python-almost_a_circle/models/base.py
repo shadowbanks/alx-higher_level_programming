@@ -44,3 +44,10 @@ class Base:
         save = Base.to_json_string(output)
         with open(name, "w", encoding="utf-8") as fd:
             fd.write(save)
+
+    @staticmethod
+    def from_json_string(json_string):
+        """ Returns the list of JSON string representation"""
+        if json_string is None:
+            return []
+        return json.loads(json_string)
