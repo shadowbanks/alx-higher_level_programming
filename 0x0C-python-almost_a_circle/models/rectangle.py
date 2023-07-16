@@ -68,6 +68,7 @@ class Rectangle(Base):
 
 
     def update(self, *args, **kwargs):
+        """ Update the rectangle properties"""
         if len(args) > 0:
             assign = ["id", "width", "height", "x", "y"]
             for i, value in enumerate(args):
@@ -75,6 +76,12 @@ class Rectangle(Base):
         elif kwargs is not None:
             for i, value in kwargs.items():
                 setattr(self, i, value)
+
+    def to_dictionary(self):
+        """ Return a dictionary representation of the rectangle"""
+        return {"id":self.id, "width":self.__width,
+                "height":self.__height, "x":self.__x,
+                "y":self.__y}
 
     def __str__(self):
         return (

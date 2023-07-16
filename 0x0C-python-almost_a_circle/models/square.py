@@ -38,5 +38,9 @@ class Square(Rectangle):
                 else:
                     setattr(self, i, value)
 
+    def to_dictionary(self):
+        """ Return a dictionary representation of the square"""
+        return {"id":self.id, "size":self.width,
+                "x":self.x, "y":self.y}
     def __str__(self):
         return f"[Square] ({self.id}) {self.x}/{self.y} - {self.width}"
