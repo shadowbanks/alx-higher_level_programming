@@ -8,6 +8,7 @@ from models.rectangle import Rectangle
 class Square(Rectangle):
     """ Create a square based of the ``rectangle`` super class"""
     def __init__(self, size, x=0, y=0, id=None):
+        """ Initialize a Square"""
         super().__init__(size, size, x, y, id)
 
     @property
@@ -20,6 +21,7 @@ class Square(Rectangle):
         self.height = size
 
     def update(self, *args, **kwargs):
+        """ Update the attribute of the square"""
         if len(args) > 0:
             assign = ["id", "size", "x", "y"]
             for i, value in enumerate(args):
@@ -40,7 +42,9 @@ class Square(Rectangle):
 
     def to_dictionary(self):
         """ Return a dictionary representation of the square"""
-        return {"id":self.id, "size":self.width,
-                "x":self.x, "y":self.y}
+        return {"id": self.id, "size": self.width,
+                "x": self.x, "y": self.y}
+
     def __str__(self):
+        """ Return Square's attributes"""
         return f"[Square] ({self.id}) {self.x}/{self.y} - {self.width}"

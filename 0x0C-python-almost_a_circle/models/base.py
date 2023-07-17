@@ -19,6 +19,7 @@ class Base:
 
     @classmethod
     def value_check(cls, name, value, mode):
+        """ Validate the id passed"""
         if type(value) is not int:
             raise TypeError(f"{name} must be an integer")
         if value <= 0 and mode == 1:
@@ -54,6 +55,7 @@ class Base:
 
     @classmethod
     def create(cls, **dictionary):
+        """ This method creates an instance with all the attributes set"""
         if dictionary is not None and len(dictionary) != 0:
             if cls.__name__ == "Rectangle":
                 cls_dummy = cls(1, 1)
@@ -64,6 +66,7 @@ class Base:
 
     @classmethod
     def load_from_file(cls):
+        """ Reads from a JSON file and return the list of instances"""
         name = cls.__name__ + ".json"
         output = []
         try:

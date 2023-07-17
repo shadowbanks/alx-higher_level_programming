@@ -66,7 +66,6 @@ class Rectangle(Base):
         for i in range(self.__height):
             print(f"{' ' * self.__x}{self.__width * '#'}")
 
-
     def update(self, *args, **kwargs):
         """ Update the rectangle properties"""
         if len(args) > 0:
@@ -79,11 +78,12 @@ class Rectangle(Base):
 
     def to_dictionary(self):
         """ Return a dictionary representation of the rectangle"""
-        return {"id":self.id, "width":self.__width,
-                "height":self.__height, "x":self.__x,
-                "y":self.__y}
+        return {"id": self.id, "width": self.__width,
+                "height": self.__height, "x": self.__x,
+                "y": self.__y}
 
     def __str__(self):
+        """ Return the rectangle definition"""
         return (
                 f"[Rectangle] ({self.id}) {self.__x}/{self.__y} "
                 f"- {self.__width}/{self.__height}"
