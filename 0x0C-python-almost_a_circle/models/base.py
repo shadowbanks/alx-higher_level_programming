@@ -83,7 +83,7 @@ class Base:
 
     @classmethod
     def draw(self, list_rectangles, list_squares):
-        """ Draw the rectangle/square using turtle"""
+        """ Draw the rectangle/square using turtle """
         draw = turtle.Turtle()
         draw.penup()
         draw_shapes = [list_rectangles, list_squares]
