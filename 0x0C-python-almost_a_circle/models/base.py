@@ -3,6 +3,9 @@
 Module ```base``` contains the base class of the project
 """
 import json
+import csv
+import turtle
+import random
 
 
 class Base:
@@ -77,3 +80,39 @@ class Base:
         for i in list_of_obj:
             output.append(cls.create(**i))
         return output
+
+    @classmethod
+    def draw(self, list_rectangles, list_squares):
+        """ Draw the rectangle/square using turtle"""
+        draw = turtle.Turtle()
+        draw.penup()
+        draw_shapes = [list_rectangles, list_squares]
+        color_list = [
+                        "red", "cyan", "blue", "green",
+                        "yellow", "purple", "black", "gray",
+                        "gold"]
+
+        for draw_items in draw_shapes:
+            for rec in draw_items:
+                if draw_items == list_rectangles:
+                    temp_w = rec.width
+                    temp_h = rec.height
+                elif draw_items == list_squares:
+                    temp_w = rec.size
+                    temp_h = rec.size
+                temp_x = rec.x
+                temp_y = rec.y
+
+                draw.setx(temp_x)
+                draw.setx(temp_y)
+
+                draw.pendown()
+                draw.pencolor(random.choice(color_list))
+                for i in range(2):
+                    draw.left(90)
+                    draw.forward(temp_h)
+                    draw.left(90)
+                    draw.forward(temp_w)
+                draw.penup()
+
+        turtle.done()
