@@ -104,7 +104,7 @@ class Base:
                 temp_y = rec.y
 
                 draw.setx(temp_x)
-                draw.setx(temp_y)
+                draw.sety(temp_y)
 
                 draw.pendown()
                 draw.pencolor(random.choice(color_list))
