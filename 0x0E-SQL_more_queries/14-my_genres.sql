@@ -6,4 +6,5 @@ INNER JOIN tv_show_genres sg
 INNER JOIN tv_shows s
 	ON s.id = sg.show_id
 	WHERE s.title = "Dexter"
-GROUP BY g.name;
+GROUP BY g.name
+ORDER BY g.name;
