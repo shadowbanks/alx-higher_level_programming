@@ -7,7 +7,7 @@ let output = '';
 if (isNaN(num)) {
   console.log('Missing number of occurrences');
 } else {
-  while (i++ < num) {
+  while (i++ < num && num > 0) {
     output += 'X';
   }
   i = 0;
