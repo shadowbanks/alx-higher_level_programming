@@ -1,18 +1,17 @@
 #!/usr/bin/node
 const process = require('process');
 const args = process.argv;
-let num = Number(args[2]);
+const num = Number(args[2]);
 let i = 0;
-let output = "";
+let output = '';
 if (isNaN(num)) {
   console.log('Missing number of occurrences');
-} 
-else {
+} else {
   while (i++ < num) {
-	  output += "x";
+    output += 'x';
   }
-	i = 0;
-	while (i++ < num){
-		console.log(output);
-	}
+  i = 0;
+  while (i++ < num) {
+    console.log(output);
+  }
 }
