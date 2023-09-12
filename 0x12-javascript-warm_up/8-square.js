@@ -5,9 +5,9 @@ const num = Number(args[2]);
 let i = 0;
 let output = '';
 if (isNaN(num)) {
-  console.log('Missing number of occurrences');
+  console.log('Missing size');
 } else {
-  while (i++ < num && num > 0) {
+  while (i++ < num) {
     output += 'X';
   }
   i = 0;
