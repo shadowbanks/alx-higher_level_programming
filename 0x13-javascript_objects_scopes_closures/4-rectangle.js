@@ -6,20 +6,23 @@ class Rectangle {
       this.height = h;
     }
   }
-  print(){
-    let temp = "", i = 0;
-    while (i++ < this.width){
-      temp += "X";
+
+  print () {
+    let temp = ''; let i = 0;
+    while (i++ < this.width) {
+      temp += 'X';
     }
     i = 0;
-    while (i++ < this.height){
+    while (i++ < this.height) {
       console.log(temp);
     }
   }
-  rotate(){
+
+  rotate () {
     [this.width, this.height] = [this.height, this.width];
   }
-  double(){
+
+  double () {
     [this.width, this.height] = [this.width * 2, this.height * 2];
   }
 }
