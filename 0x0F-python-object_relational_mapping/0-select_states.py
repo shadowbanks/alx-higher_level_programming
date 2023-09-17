@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-import sys
-import MySQLdb
-
 """
 Module Doc
 """
+
+
+import sys
+import MySQLdb
 
 
 def main():
