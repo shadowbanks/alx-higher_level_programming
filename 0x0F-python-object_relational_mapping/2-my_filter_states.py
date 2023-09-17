@@ -7,8 +7,6 @@ import MySQLdb
 
 
 def main():
-    """Main Function"""
-
     userName, userPwd, dbname, val = sys.argv[1:5]
 
     db = MySQLdb.connect(
