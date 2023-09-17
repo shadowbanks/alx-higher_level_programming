@@ -8,6 +8,7 @@ Module Doc
 
 
 def main():
+    """Begin of the program"""
     userName, userPwd, dbName = sys.argv[1:4]
     db = MySQLdb.connect(
         host="localhost", user=userName, passwd=userPwd, db=dbName, port=3306
