@@ -16,7 +16,10 @@ def main():
     Session.configure(bind=engine)
     session = Session()
     states = (
-        session.query(State).filter(State.name.like("%a%")).order_by(State.id).all()
+        session.query(State)
+        .filter(State.name.like("%a%"))
+        .order_by(State.id)
+        .all()
     )
 
     for state in states:

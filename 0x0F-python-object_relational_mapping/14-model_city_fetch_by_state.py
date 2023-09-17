@@ -11,7 +11,8 @@ from sqlalchemy.orm import sessionmaker
 
 def main():
     engine = create_engine(
-        "mysql://{}:{}@localhost:3306/{}".format(*sys.argv[1:4]), pool_pre_ping=True
+        "mysql://{}:{}@localhost:3306/{}".format(*sys.argv[1:4]),
+        pool_pre_ping=True
     )
     Session = sessionmaker(bind=engine)
     session = Session()

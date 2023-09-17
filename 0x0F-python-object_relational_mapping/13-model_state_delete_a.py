@@ -10,7 +10,8 @@ from model_state import Base, State
 
 def main():
     engine = create_engine(
-        "mysql://{}:{}@localhost:3306/{}".format(*sys.argv[1:4]), pool_pre_ping=True
+        "mysql://{}:{}@localhost:3306/{}".format(*sys.argv[1:4]),
+        pool_pre_ping=True
     )
     Session = sessionmaker(engine)
     session = Session()

@@ -23,7 +23,6 @@ def main():
     )
 
     rows = cur.fetchall()
-    print(rows)
     output = ", ".join(row[0] for row in rows)
     print(output)
 
