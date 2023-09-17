@@ -8,8 +8,7 @@ import sys
 import MySQLdb
 
 
-def main():
-    """Begin of the program"""
+if __name__ == "__main__":
     userName, userPwd, dbName = sys.argv[1:4]
     db = MySQLdb.connect(
         host="localhost", user=userName, passwd=userPwd, db=dbName, port=3306
@@ -23,7 +22,3 @@ def main():
 
     cur.close()
     db.close()
-
-
-if __name__ == "__main__":
-    main()
