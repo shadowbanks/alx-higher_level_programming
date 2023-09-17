@@ -13,7 +13,7 @@ def main():
         host="localhost", user=userName, passwd=userPwd, db=dbname, port=3306
     )
     cur = db.cursor()
-    cur.execute(f"SELECT * FROM states WHERE name=%s ORDER BY id", (val,))
+    cur.execute("SELECT * FROM states WHERE name='%s' ORDER BY id" % val)
 
     rows = cur.fetchall()
     for row in rows:
