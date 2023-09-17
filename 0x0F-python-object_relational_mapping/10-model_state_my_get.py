@@ -1,4 +1,7 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
+"""
+Module Doc
+"""
 import sys
 from model_state import State, Base
 from sqlalchemy import create_engine

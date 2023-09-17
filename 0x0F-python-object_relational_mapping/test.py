@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+Module Doc
+"""
 import MySQLdb
 
 db = MySQLdb.connect(
