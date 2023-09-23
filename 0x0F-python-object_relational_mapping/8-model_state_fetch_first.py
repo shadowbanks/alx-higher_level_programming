@@ -21,6 +21,8 @@ def main():
 
     if state:
         print(f"{state.id}: {state.name}")
+    else:
+        print("Nothing")
 
 
 if __name__ == "__main__":
