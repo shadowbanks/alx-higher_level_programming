@@ -13,7 +13,9 @@ def main():
         host="localhost", user=userName, passwd=userPwd, db=dbname, port=3306
     )
     cur = db.cursor()
-    cur.execute("SELECT * FROM states WHERE name='%s' ORDER BY id" % val)
+    cmd = "SELECT * FROM states WHERE BINARY \
+            name LIKE '{}' ORDER BY id".format(val)
+    cur.execute(cmd)
 
     rows = cur.fetchall()
     for row in rows:
