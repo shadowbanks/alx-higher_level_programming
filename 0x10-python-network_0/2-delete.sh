@@ -1,3 +1,3 @@
-#!/usr/bin/bash
+#!/bin/bash
 # Send a DELETE request
 curl -sLX DELETE $@
