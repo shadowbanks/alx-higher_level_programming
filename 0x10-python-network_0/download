@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+file=$@
+scp 141936a2ccce@141936a2ccce.70b980b6.alx-cod.online:$file .
