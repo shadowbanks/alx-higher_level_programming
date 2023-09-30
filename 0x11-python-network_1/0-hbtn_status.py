@@ -1,16 +1,15 @@
 #!/usr/bin/python3
-import urllib.request
-
 """ Get the status"""
+import urllib.request
 
 
 def main():
     req = urllib.request.Request('https://alx-intranet.hbtn.io/status')
     with urllib.request.urlopen(req) as response:
         content = response.read()
-        print(f"Body response:\n\t- type: {type(content)}")
-        print(f"\t- content: {content}")
-        print(f"\t- utf8 content: {content.decode('utf-8')}")
+        print("Body response:\n\t- type: {}".format(type(content)))
+        print("\t- content: {}".format(content))
+        print("\t- utf8 content: {}".format(content.decode('utf-8')))
 
 
 if __name__ == "__main__":
