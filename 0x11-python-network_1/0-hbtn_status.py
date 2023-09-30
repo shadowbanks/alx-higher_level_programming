@@ -13,5 +13,5 @@ def main():
         print(f"\t- utf8 content: {content.decode('utf-8')}")
 
 
-if '__main__' == __name__:
+if __name__ == "__main__":
     main()
