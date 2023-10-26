@@ -10,6 +10,6 @@ request(args[2], options, (error, response, body) => {
     const str = JSON.stringify(body);
     const count = str.split(sub).length - 1;
     console.log(count);
-    //console.log(str);
+    // console.log(str);
   }
 });
