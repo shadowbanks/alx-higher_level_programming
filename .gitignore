@@ -7,4 +7,3 @@ main.c
 *.swp
 a.out
 __pycache__
-*main.html
